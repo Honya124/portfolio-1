@@ -11,7 +11,7 @@ function Contact() {
         </div>
 
         <div className='flex justify-center  '>
-            <form action="" method='POST' className='flex flex-col justify-center  md:w-1/2 w-full '>
+            <form action="https://getform.io/f/6ef62f04-7d1f-44e2-932b-9f180f39e63b" method='POST' className='flex flex-col justify-center  md:w-1/2 w-full '>
 
                 <input type="text" name='name'
                 className='text-xl px-6 py-4 border-2 bg-transparent focus:outline-none rounded-lg ' placeholder='Enter your name' />

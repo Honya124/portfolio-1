@@ -5,7 +5,6 @@ import graphql from '../assets/graphql.png'
 import html from '../assets/html.png'
 import javascript from '../assets/javascript.png'
 import nextjs from '../assets/nextjs.png'
-import node from '../assets/node.png'
 import react from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 
@@ -72,8 +71,8 @@ function Experience() {
         </div>
         <div className='grid w-full  grid-cols-2 sm:grid-cols-3 gap-8 px-12 sm:p-0'>
           {links.map(({id,src,title,style})=>(
-                <div className={` shadow-md hover:scale-105 duration-200 rounded-lg  text-center ${style}`}>
-                <img src={src} alt="No Image" className='w-20  mx-auto' />
+                <div key={id} className={` shadow-md hover:scale-105 duration-200 rounded-lg  text-center ${style}`}>
+                <img src={src} alt="No show" className='w-20  mx-auto' />
 
                   <p className='p-4 mt-4'>{title}</p>
             </div>

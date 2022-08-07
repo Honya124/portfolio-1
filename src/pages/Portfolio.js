@@ -10,31 +10,31 @@ function Portfolio() {
     const mywork=[
         {
             id:1,
-        ima:arrayDestruct,
+        src:arrayDestruct,
         },
         {
             id:2,
-        ima:installNode
+        src:installNode
         },
         {
             id:3,
-        ima:navbar
+        src:navbar
         },
         {
             id:4,
-        ima:reactParallax
+        src:reactParallax
         },
         {
             id:5,
-        ima:reactSmooth
+        src:reactSmooth
         },
         {
             id:6,
-        ima:reactWeather
-        },
+        src:reactWeather
+        }
+    ]
         
     
-    ]
     
   return (
     <div name="portfolio" className='w-full text-white bg-gradient-to-b from-black via-black 
@@ -45,11 +45,11 @@ function Portfolio() {
             <p className='mt-6'>Check out some of my work right here</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 mx-auto gap-8'>
-        {mywork.map(({id,ima})=>(
+        {mywork.map(({id,src})=>(
             <div key={id} className='shadow-md shadow-gray-400 '>
-                <img src={ima} alt="no Image" className='hover:scale-105 duration-200 rounded-lg px-12 sm:px-0' />
+                <img src={src} alt="no show" className='hover:scale-105 duration-200 rounded-lg px-12 sm:px-0' />
                 <div className='flex justify-center items-center'>
-                    <button className='px-6 py-3 hover:scale-105 duration-200 w-1/2 m-4 '>Demo</button>
+                    <button className='px-6 py-3 hover:scale-105 duration-200 w-1/2 m-4 '>Demo</button> 
                     <button className='px-6 py-3 hover:scale-105 duration-200 w-1/2 m-4 '>Code</button>
                 </div>
             </div>

@@ -2,7 +2,6 @@ import React from 'react'
 import {FaLinkedin,FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {HiOutlineMail} from 'react-icons/hi'
-import {Link} from 'react-router-dom'
 
 function SocialLinks() {
   const links=[
